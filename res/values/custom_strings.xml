@@ -336,4 +336,7 @@
     <string name="qs_show_battery_estimate_title">Battery estimates</string>
     <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
     <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store" translatable="false">Google Play</string>
 </resources>
