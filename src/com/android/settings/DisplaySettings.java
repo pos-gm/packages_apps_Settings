@@ -51,6 +51,7 @@ public class DisplaySettings extends DashboardFragment {
 
     private static final String KEY_HIGH_TOUCH_POLLING_RATE = "high_touch_polling_rate_enable";
     private static final String KEY_HIGH_TOUCH_SENSITIVITY = "high_touch_sensitivity_enable";
+    private static final String KEY_REFRESH_RATE_CATEGORY = "refresh_rate_category";
 
     @Override
     public int getMetricsCategory() {
@@ -70,6 +71,10 @@ public class DisplaySettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+
+        if (!getActivity().getResources().getBoolean(R.bool.config_show_smooth_display)) {
+            getPreferenceScreen().removePreference(findPreference(KEY_REFRESH_RATE_CATEGORY));
+        }
     }
 
     @Override
