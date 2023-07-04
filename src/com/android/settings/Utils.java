@@ -1247,14 +1247,4 @@ public final class Utils extends com.android.settingslib.Utils {
         final UserManager userManager = context.getSystemService(UserManager.class);
         return userManager != null && userManager.isSystemUser();
     }
-
-    public static int getPINPasswordLength(LockPatternUtils lockPatternUtils, int userId) {
-        int pinLength = 0;
-        try {
-            pinLength = lockPatternUtils.getLockSettings().getCredentialLength(userId);
-        } catch (Exception e) {
-            Log.d("getPINPasswordLength", "getLong error: " + e.getMessage());
-        }
-        return pinLength;
-    }
 }
