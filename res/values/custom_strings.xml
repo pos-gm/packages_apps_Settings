@@ -182,5 +182,6 @@
     <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
 
     <!-- USB configuration -->
-    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_title">USB</string>
+    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
 </resources>
