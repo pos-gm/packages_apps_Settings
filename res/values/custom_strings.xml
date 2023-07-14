@@ -326,5 +326,6 @@
     <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
 
     <!-- USB configuration -->
-    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_title">USB</string>
+    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
 </resources>
