@@ -320,4 +320,8 @@
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB</string>
     <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+
+    <!-- Smooth Display -->
+    <string name="smooth_display_intro">Automatically raises the refresh rate from 60 Hz to the selected high refresh rate, for some content. Increases battery usage.</string>
+    <string name="smooth_display_switch">Use Smooth Display</string>
 </resources>
