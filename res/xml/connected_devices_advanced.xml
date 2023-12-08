@@ -40,7 +40,8 @@
         android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
         android:icon="@drawable/ic_usb_24"
         android:order="-6"
-        android:title="@string/usb_default_config_title"/>
+        android:title="@string/usb_default_config_title"
+        android:summary="@string/usb_default_config_summary"/>
 
     <Preference
         android:fragment="com.android.settings.wfd.WifiDisplaySettings"
