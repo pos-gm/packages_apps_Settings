@@ -17,6 +17,7 @@
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
 
     <!-- General -->
+    <string name="category_name_gestures">Gestures</string>
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="longpress_to_clipboard">Long-press to copy</string>
 
