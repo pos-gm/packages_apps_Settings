@@ -314,6 +314,9 @@
     <string name="icon_manager_title">Icon manager</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
 
+    <!-- General -->
+    <string name="category_name_gestures">Gestures</string>
+    <string name="category_name_refresh_rate_controls">Refresh Rate</string>
 
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore window secure flags</string>
